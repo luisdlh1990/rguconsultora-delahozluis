@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(102, 102, 102);
+    
+}
+.nav-logo{
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+}
+.navbar{
+    position: absolute;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+.jumbotron{
+    background-image: url(img/chemistry-2938901_960_720.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+h1{
+    color: rgba(255, 255, 255, 0.637);
+    text-transform: capitalize;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 50px;
+    display: flex;
+    justify-content: end;
+    padding-top: 355px;
+}
+
+.container{
+    background-image: url(img/science-6566158_960_720.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+.h2-i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    text-align: center;
+    color: rgba(245, 245, 245, 0.788);
+}
+
+.dv-bgc{
+    background-color: rgba(31, 8, 8, 0.425);
+}
+.list-inline-item a{
+    color: rgba(245, 245, 245, 0.774);
+    font-size: 20px;
+}
+.container-f{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: flex-end;
+    text-align: end;
+}
+
+.footer-copyright {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+    color: whitesmoke;
+}
