@@ -31,7 +31,7 @@ h1{
     font-size: 50px;
     display: flex;
     justify-content: end;
-    padding-top: 355px;
+    padding-top: 320px;
 }
 
 .container{
@@ -81,4 +81,23 @@ div h3{
     text-align: center;
     padding: 20px;
     color: whitesmoke;
+}
+.btn-color{
+    background-color: whitesmoke;
+}
+.mb-4{
+    padding: 10px;
+    color: whitesmoke;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contacto-jumbo{
+    background-image: url(img/chemistry-2938901_960_720.jpg);
+}
+
+.jumbo-h1{
+    color: rgba(245, 245, 245, 0.651);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-transform: capitalize;
+    font-size: 50px;
 }
