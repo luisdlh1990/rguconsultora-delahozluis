@@ -66,6 +66,10 @@ div h3{
     color: rgba(245, 245, 245, 0.774);
     font-size: 20px;
 }
+.text-index:hover{
+    transform: scale(1.05);
+    transition: 1s;
+}
 .container-f{
     display: flex;
     align-items: center;
@@ -100,4 +104,30 @@ div h3{
     font-family: 'Yanone Kaffeesatz', sans-serif;
     text-transform: capitalize;
     font-size: 50px;
+}
+.backg-col{
+    background-color: rgba(0, 0, 0, 0.329);
+    color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 30px;
+}
+.backg-col:hover{
+    transform: scale(1.05);
+    transition: 1s;
+}
+.container-serv{
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.list-logo{
+    background-image: url(img/logo-rgu.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 411.59px;
+    width: 397.91;
 }
